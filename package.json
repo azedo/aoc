@@ -1,0 +1,24 @@
+{
+    "name": "aoc",
+    "version": "1.0.0",
+    "description": "This is a repo to store my code for Advent of Code throughout the years.",
+    "main": "index.js",
+    "scripts": {
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.55.0"
+    }
+}
