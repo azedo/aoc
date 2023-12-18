@@ -8,7 +8,8 @@
         "format:write": "prettier --write .",
         "lint:check": "eslint .",
         "lint:fix": "eslint --fix .",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "js": "node --watch js/**/*.js"
     },
     "type": "module",
     "keywords": [],
