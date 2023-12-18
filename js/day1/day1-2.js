@@ -1,7 +1,12 @@
 // part 2
+//
+// Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
+//
+// Equipped with this new information, you now need to find the real first and last digit on each line. For example:
+
 import { readFileSync } from 'fs'
 
-const input = readFileSync('./js/input.txt', 'utf-8')
+const input = readFileSync('./js/day1/input.txt', 'utf-8')
 const lines = input.split('\n')
 
 const replaceObj = {
@@ -38,4 +43,4 @@ const result = array.reduce((previous, current) => {
     return Number(previous) + Number(current)
 }, 0)
 
-console.log(result)
+console.log('result', result)
